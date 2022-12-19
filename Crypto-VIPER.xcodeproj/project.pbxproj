@@ -62,18 +62,58 @@
 		6E8682562951108400FDA500 /* Crypto-VIPER */ = {
 			isa = PBXGroup;
 			children = (
-				6E8682572951108400FDA500 /* AppDelegate.swift */,
-				6E8682592951108400FDA500 /* SceneDelegate.swift */,
-				6E86826C2951113B00FDA500 /* View.swift */,
-				6E86826E2951114700FDA500 /* Entity.swift */,
-				6E8682702951115800FDA500 /* Router.swift */,
-				6E8682722951116400FDA500 /* Presenter.swift */,
-				6E8682742951117000FDA500 /* Interactor.swift */,
+				6E86827A29511CDA00FDA500 /* Interactor */,
+				6E86827929511CC200FDA500 /* Presenter */,
+				6E86827829511CAD00FDA500 /* Entity */,
+				6E86827729511CA300FDA500 /* Router */,
+				6E86827629511C9900FDA500 /* View */,
 				6E8682602951108500FDA500 /* Assets.xcassets */,
 				6E8682622951108500FDA500 /* LaunchScreen.storyboard */,
 				6E8682652951108500FDA500 /* Info.plist */,
 			);
 			path = "Crypto-VIPER";
+			sourceTree = "<group>";
+		};
+		6E86827629511C9900FDA500 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E8682592951108400FDA500 /* SceneDelegate.swift */,
+				6E8682572951108400FDA500 /* AppDelegate.swift */,
+				6E86826C2951113B00FDA500 /* View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E86827729511CA300FDA500 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				6E8682702951115800FDA500 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		6E86827829511CAD00FDA500 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				6E86826E2951114700FDA500 /* Entity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		6E86827929511CC200FDA500 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6E8682722951116400FDA500 /* Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6E86827A29511CDA00FDA500 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6E8682742951117000FDA500 /* Interactor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
